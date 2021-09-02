@@ -1,0 +1,3 @@
+include ':customadapter2'
+include ':app'
+rootProject.name = "sm5_18"

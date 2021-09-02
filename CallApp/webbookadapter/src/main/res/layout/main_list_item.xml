@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/main_item_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hong"/>
+
+    <TextView
+        android:id="@+id/main_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="김 비서가 왜 이럴까 23"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/main_item_person"/>
+
+    <TextView
+        android:id="@+id/main_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018-02-03"
+        android:layout_below="@id/main_item_name"
+        android:layout_alignLeft="@id/main_item_name"/>
+    <TextView
+        android:id="@+id/main_item_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8.2MB"
+        android:layout_below="@id/main_item_name"
+        android:layout_marginLeft="140dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_item_download"
+        android:src="@drawable/ic_baseline_arrow_circle_down"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
